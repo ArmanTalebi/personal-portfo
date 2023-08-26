@@ -8,7 +8,11 @@ const Main = () => {
         src="/src/assets/Main.jpg"
         alt="Main"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/0"></div>
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/0">
+        <div className="">
+          <h1>I'm Arman Talebi</h1>
+        </div>
+      </div>
     </div>
   );
 };
