@@ -1,5 +1,5 @@
 import SideNav from "./components/SideNav";
-import Main from "./components/Main";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
