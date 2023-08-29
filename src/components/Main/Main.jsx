@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover"
+        className="w-full h-screen object-cover opacity-70"
         src="/src/assets/Main.jpg"
         alt="Main"
       />
