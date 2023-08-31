@@ -1,4 +1,4 @@
-import SideNav from "./components/SideNav";
+import SideNav from "./components/SideNav/SideNav";
 import Main from "./components/Main/Main";
 import Work from "./components/Work";
 

@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { AiOutlineHome, AiOutlineProject, AiOutlineMail } from "react-icons/ai";
+import {
+  AiOutlineMenu,
+  AiOutlineHome,
+  AiOutlineProject,
+  AiOutlineMail,
+} from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 import "./SideNav.css";
@@ -13,19 +18,10 @@ const SideNav = () => {
   };
   return (
     <div>
-      <label className="hamburger cursor-pointer">
-        <input className="hidden" type="checkbox" />
-        <svg
-          className="h-8 transform 600 cubic-bezier(0.4, 0, 0.2, 1)"
-          viewBox="0 0 32 32"
-        >
-          <path
-            class="line line-top-bottom fill-none	stroke-white"
-            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
-          ></path>
-          <path class="line fill-none	stroke-white" d="M7 16 27 16"></path>
-        </svg>
-      </label>
+      <AiOutlineMenu
+        onClick={handleNav}
+        className="absolute top-4 right-4 z-[99] md:hidden"
+      />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/30 flex flex-col justify-center items-center z-20">
           <a
