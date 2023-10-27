@@ -14,7 +14,7 @@ const SideNav = () => {
 
   const handleNav = () => {
     // for when click on menu it will be show the another parts of navbar
-    setNav(!nav);
+    setNav(!nav);//? Hamburger Menu
   };
   return (
     <div>
