@@ -16,7 +16,7 @@ const Projects = () => {
         necessitatibus temporibus ad accusantium consectetur libero id ratione!
         In, quae!
       </p>
-      <div className="ml-4 grid sm:grid-cols-2 gap-12">
+      <div className=" grid sm:grid-cols-2 gap-12">
         <ProjectItem img={CodeWarsImg} title="CodeWars" />
         <ProjectItem img={EventImg} title="Event" />
         <ProjectItem img={GameHubImg} title="GameHub" />
