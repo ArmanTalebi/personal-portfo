@@ -14,7 +14,7 @@ const SideNav = () => {
 
   const handleNav = () => {
     // for when click on menu it will be show the another parts of navbar
-    setNav(!nav);//? Hamburger Menu
+    setNav(!nav); //? Hamburger Menu
   };
   return (
     <div>
@@ -25,6 +25,7 @@ const SideNav = () => {
       {nav ? (
         <div className="fixed w-full h-screen bg-white/30 flex flex-col justify-center items-center z-20">
           <a
+            onClick={handleNav}
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -32,6 +33,7 @@ const SideNav = () => {
             <span className="pl-2">Home</span>
           </a>
           <a
+            onClick={handleNav}
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -39,6 +41,7 @@ const SideNav = () => {
             <span className="pl-2">Work</span>
           </a>
           <a
+            onClick={handleNav}
             href="#project"
             className="w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -46,6 +49,7 @@ const SideNav = () => {
             <span className="pl-2">Projects</span>
           </a>
           <a
+            onClick={handleNav}
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -53,6 +57,7 @@ const SideNav = () => {
             <span className="pl-2">Resume</span>
           </a>
           <a
+            onClick={handleNav}
             href="#contact"
             className="w-[75%] flex justify-center items-center rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
