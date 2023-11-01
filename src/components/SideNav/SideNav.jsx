@@ -84,7 +84,7 @@ const SideNav = () => {
             <GrProjects size={20} />
           </a>
           <a
-            href="#projects"
+            href="#project"
             className="rounded-full shadow-sm bg-gray-400 shadow-gray-600 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineProject size={20} />
