@@ -2,8 +2,8 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import CodeWarsImg from "../assets/Codewars.png";
 import EventImg from "../assets/Event.png";
-import GameHubImg from "../assets/Gamehub.png";
-import TakeAway from "../assets/Takeaway.png";
+import GameHubImg from "../assets/GameHub.png";
+import TakeAway from "../assets/TakeAway.png";
 
 const Projects = () => {
   return (
